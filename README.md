@@ -7,6 +7,7 @@ The dataset has been collected and analyzed during a research collaboration of W
 This dataset presents transactions that occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced, the positive class (frauds) account for 0.172% of all transactions.
         
 ## **Workflow**
+![workflow](https://github.com/user-attachments/assets/321c42b1-3593-429f-b5e1-1a301c4a3a39)
    
     
 ### **Exploring the dataset**
@@ -40,4 +41,7 @@ GridSearch CV method is used to train logistic regression classifiers with the d
 
 ### Model Evaluation
 Best estimator thus obtained is used to evaluate its performance on the unseen test data. We calculated the recall, confusion-matrix and roc-auc scores.
+![image](https://github.com/user-attachments/assets/6830fd38-9de4-4d85-9ee1-c0db7710371d)
+![image-1](https://github.com/user-attachments/assets/6a752fe9-932f-40e1-a5db-1b695c89fe40)
+
 
